@@ -12,7 +12,8 @@ int main(int argc, char*argv[])
     
     if (a > b) {
         cout << "The first number should be less than or equal to the second number.\n" << endl;
-        return 1; // 프로그램 종료
+        return 1; // 
+        프로그램 종료
     }
 
     int sum = 0;
