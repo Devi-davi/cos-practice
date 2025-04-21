@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-    unsigned int x{};
+    int x{};
     std::cout << "Enter a number: ";
     std::cin >> x;
     if (x >= 0){

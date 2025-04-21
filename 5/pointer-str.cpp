@@ -14,6 +14,9 @@ int main(int agrc, char*argv[])
     cout << "str1= " << str1 << endl;
     cout << "str2= " << str2 << endl;
 
+    for (i=-10; i<10; i++)
+        cout << "p["<< i << "]= " << p[i] << endl;
+
     // add one line related to p
     *(p-1) = ',';
 

@@ -16,11 +16,15 @@ int main(int agrc, char*argv[])
     }
 
     // cout << "arr[0]=" << arr[0] << endl;
-    print_result(arr, 0);
+    // print_result(arr, 0);
     // cout << "arr[3]=" << arr[3] << endl;
-    print_result(arr, 3);
+    // print_result(arr, 3);
     // cout << "arr[7]=" << arr[7] << endl;
-    print_result(arr, 7);
+    // print_result(arr, 7);
+
+    for (i=0; i<BUFLEN; i++){
+        print_result(arr, i);
+    }
 
     return 0;
 }

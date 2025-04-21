@@ -20,20 +20,20 @@ int main(int argc, char*argv[])
     cout << "p= " << p << endl;
     cout << "*p= " << *p << endl;
 
-    // a = 5;
-    // p = &a;
+    a = 5;
+    p = &a;
 
-    // cout << "a= " << a << endl;
-    // cout << "p= " << p << endl;
+    cout << "a= " << a << endl;
+    cout << "p= " << p << endl;
 
-    // *p = 10;
+    *p = 10;
 
-    // cout << "a= " << a << endl;
-    // cout << "p= " << p << endl;
+    cout << "a= " << a << endl;
+    cout << "p= " << p << endl;
 
     // cout << "&a= " << &a << endl;
     // cout << "*p= " << *p << endl;
-    // cout << "arr= " << arr << endl;
+    // cout << "arr= " << arr << endl;  
 
     return 0;
-}
+}  
