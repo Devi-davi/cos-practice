@@ -4,12 +4,7 @@ using namespace std;
 int check(int a, int b)
 {
     return a < b;
-}
-
-int add(int a, int b)
-{
-    return a < b;
-}
+}  
 
 int add(int a, int b)
 {

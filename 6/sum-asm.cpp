@@ -12,6 +12,22 @@ void decode1(long *xp, long *yp, long *zp) {
     );
 }
 
+int main(){
+    // int a, b, c;
+    // a = 3;
+    // b = 5;
+    // c = sum(a, b);
+    // cout << "c: " << c << endl;
+
+    long x, y, z;
+    x = 10000; y = 20000; z = 30000;
+    cout << "before decode1(): " << "x: " << x << " y: " << y << " z: " << z << endl;
+    decode1(&x, &y, &z);
+    cout << "after decode1(): " << "x: " << x << " y: " << y << " z: " << z << endl;
+
+    return 0;
+}
+
 // int sum(int a, int b){
 //     __asm__(
         // "mov %rsp,%rbp\n"
@@ -30,20 +46,3 @@ void decode1(long *xp, long *yp, long *zp) {
 //         "mov %efi,%edx"
 //     );
 // }
-
-
-int main(){
-    // int a, b, c;
-    // a = 3;
-    // b = 5;
-    // c = sum(a, b);
-    // cout << "c: " << c << endl;
-
-    long x, y, z;
-    x = 10000; y = 20000; z = 30000;
-    cout << "before decode1(): " << "x: " << x << "y: " << y << "z: " << z << endl;
-    decode1(&x, &y, &z);
-    cout << "after decode1(): " << "x: " << x << "y: " << y << "z: " << z << endl;
-
-    return 0;
-}
